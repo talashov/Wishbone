@@ -149,7 +149,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 30px;
-    width: 500px;
+    width: 258px;
   }
 
   &__name {
@@ -300,7 +300,159 @@ ul {
     justify-items: center;
     align-items: center;
   }
+}
 
-  &__images-img {
+.projects {
+  background-color: #f7f7f7;
+  padding-bottom: 100px;
+
+  &__title {
+    font-size: 39px;
+    line-height: 42px;
+    color: $color-main;
+    padding-top: 113px;
+  }
+
+  &__subtitle {
+    width: 581px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645c55;
+    padding: 15px 0 42px;
+  }
+
+  &__inner {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    &-subtitle {
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #645c55;
+      position: relative;
+      top: 0;
+    }
+
+    &-title {
+      font-size: 23px;
+      line-height: 30px;
+      color: #403e3b;
+    }
+    &-btn {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+      color: #fff;
+      width: 133px;
+      height: 46px;
+      padding: 11px 20px;
+      background: #1b1a1a;
+      border-radius: 14px;
+    }
+  }
+  &__dropdown {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: $color-main;
+  }
+}
+
+.team {
+  &__inner {
+    display: flex;
+    padding: 100px 0;
+    gap: 16px;
+  }
+  &__wrapper-title {
+    font-size: 32px;
+    line-height: 38px;
+    color: #403e3b;
+    padding-bottom: 14px;
+  }
+
+  &__wrapper-text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #645c55;
+    padding-right: 26px;
+    padding-bottom: 30px;
+  }
+
+  &__wrapper-link {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: $color-main;
+    padding-left: 25px;
+  }
+
+  &__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px 117px;
+  }
+}
+
+.connection {
+  background: #cec4bc;
+  height: 315px;
+  display: flex;
+  align-items: center;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+  }
+  &__box {
+    width: 575px;
+    height: 114px;
+  }
+  &__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645c55;
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 42px;
+    color: $color-main;
+  }
+
+  &__pop-up {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: $color-main;
+    cursor: pointer;
+  }
+}
+
+.footer {
+  background: #f7f7f7;
+  height: 204px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 60px;
+  }
+  &__title{
+    padding-top: 20px;
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
   }
 }
